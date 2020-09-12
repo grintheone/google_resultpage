@@ -4,38 +4,41 @@
         <title>Google Search</title>
         <meta charset="utf-8">
         <meta lang="en">
+        <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
         <header>
             <div id="first-row">
             <div>
-                <img src="pictures/googlelogo_color_272x92dp.png" alt="logo">
-                <form>
-                    <input type="text" id="query" name="query">
-                    <img src="pictures/Screenshot 2020-09-10 at 09.47.41.png" alt="">
-                    <img src="pictures/Screenshot 2020-09-10 at 09.47.50.png" alt="">
+                <img id="hdr-img" src="pictures/googlelogo_color_272x92dp.png" alt="logo">
+                <form id="search-bar">
+                    <input id="search-field" type="text" id="query" name="query">
+                    <img class="search-icons" src="pictures/Screenshot 2020-09-10 at 09.47.41.png" alt="">
+                    <img class="search-icons" src="pictures/Screenshot 2020-09-10 at 09.47.50.png" alt="">
                 </form>
             </div>
-            <div>
-                <img src="pictures/Screenshot 2020-09-10 at 09.33.44.png" alt="">
-                <button>Sign in</button> 
+            <div id="right-side">
+                <div class="behind"></div>
+                <img id="gapps" class="icon-2" src="pictures/Screenshot 2020-09-10 at 09.33.44.png" alt="">
+                <button id="sign-in">Sign in</button> 
+
             </div>
             </div>
             <div id="second-row">
-                <div>
+                <div class="navigation">
                 <ul>
-                    <li><img src="pictures/Screenshot 2020-09-10 at 09.40.50.png" alt="">All</li>
-                    <li><img src="pictures/Screenshot 2020-09-10 at 09.41.06.png" alt="">News</li>
-                    <li><img src="pictures/Screenshot 2020-09-10 at 09.41.17.png" alt="">Maps</li>
-                    <li><img src="pictures/Screenshot 2020-09-10 at 09.41.25.png" alt="">Videos</li>
-                    <li><img src="pictures/Screenshot 2020-09-10 at 09.41.33.png" alt="">Images</li>
-                    <li><img src="pictures/Screenshot 2020-09-10 at 09.41.40.png" alt="">More</li>
+                    <li id="current-link" class="header-link"><img class="icon" src="pictures/Screenshot 2020-09-10 at 09.40.50.png" alt="">All</li>
+                    <li class="header-link"><img class="icon" src="pictures/Screenshot 2020-09-10 at 09.41.06.png" alt="">News</li>
+                    <li class="header-link"><img class="icon" src="pictures/Screenshot 2020-09-10 at 09.41.17.png" alt="">Maps</li>
+                    <li class="header-link"><img class="icon" src="pictures/Screenshot 2020-09-10 at 09.41.25.png" alt="">Videos</li>
+                    <li class="header-link"><img class="icon" src="pictures/Screenshot 2020-09-10 at 09.41.33.png" alt="">Images</li>
+                    <li class="header-link"><img class="icon" src="pictures/Screenshot 2020-09-10 at 09.41.40.png" alt="">More</li>
                 </ul>
                 </div>
-                <div>
+                <div class="navigation">
                     <ul>
-                        <li>Settings</li>
-                        <li>Tools</li>
+                        <li class="header-link">Settings</li>
+                        <li id="tools" class="header-link">Tools</li>
                     </ul>  
                 </div>
             </div>

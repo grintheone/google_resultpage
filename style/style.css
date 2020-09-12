@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+body {
+    width: 1250px;
+}
+header {
+    padding: 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.726);
+    color: rgb(117, 116, 116);
+}
+.icon {
+    position: relative;
+    top: 3px;
+    right: 5px;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+.icon-2 {
+    position: relative;
+    top: 12px;
+    right: 10px; 
+    width: 24px;
+    padding: 5px;
+    border-radius: 25px;
+}
+.header-link {
+    cursor: pointer;
+}
+#current-link {
+    position: relative;
+    color: rgba(0, 110, 255, 0.808);
+    border-bottom: 2px solid  rgba(0, 110, 255, 0.808);
+    padding: 10px;
+}
+.behind {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 0;
+    background-color: lightgray;
+    padding: 5px;
+    top: 11px;
+    left: -10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 25px;
+}
+.behind:hover {
+    visibility: visible;
+}
+#sign-in {
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(0, 110, 255, 0.808);
+}
+#right-side {
+    position: relative;
+    top: -5px;
+    right: 5px;
+}
+.search-icons {
+    position: relative;
+    margin: 0 5px;
+    top: -10px;
+    left: 600px;
+    z-index: 1;
+    width: 24px;
+}
+#first-row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#search-bar {
+    display: inline-block;
+    margin: 20px;
+}
+#search-field {
+    position: absolute;
+    outline: none;
+    top: 22px;
+    left: 170px;
+    padding: 12px;
+    border-radius: 24px;
+    border: 1px solid lightgray;
+    width: 650px;
+}
+#search-field:hover {
+    box-shadow: 0px 1px 5px 0px rgba(211,211,211,1);}
+#hdr-img {
+    width: 95px;
+    padding: 6px 5px;
+}
+#second-row {
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    margin-left: 100px;
+    width: 710px;
+    justify-content: space-around;
+}
+#tools {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+#tools:hover {
+    border: 1px solid rgb(207, 207, 207);
+    background-color: rgba(231, 231, 231, 0.829);
+    border-radius: 2px;
+    
+}
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
