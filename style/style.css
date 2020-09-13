@@ -28,6 +28,25 @@ header {
     padding: 5px;
     border-radius: 25px;
 }
+#gapps {
+    z-index: 1;
+    cursor: pointer;
+}
+#space {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: -11px;
+    opacity: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 25px;
+    background-color: black;
+}
+#space:hover{
+    opacity: 0.1;
+}
 .header-link {
     cursor: pointer;
 }
@@ -36,21 +55,6 @@ header {
     color: rgba(0, 110, 255, 0.808);
     border-bottom: 2px solid  rgba(0, 110, 255, 0.808);
     padding: 10px;
-}
-.behind {
-    position: absolute;
-    opacity: 0.5;
-    z-index: 0;
-    background-color: lightgray;
-    padding: 5px;
-    top: 11px;
-    left: -10px;
-    width: 24px;
-    height: 24px;
-    border-radius: 25px;
-}
-.behind:hover {
-    visibility: visible;
 }
 #sign-in {
     padding: 8px 20px;
@@ -95,6 +99,7 @@ header {
     box-shadow: 0px 1px 5px 0px rgba(211,211,211,1);}
 #hdr-img {
     width: 95px;
+    cursor: pointer;
     padding: 6px 5px;
 }
 #second-row {
@@ -114,7 +119,7 @@ header {
 }
 #tools:hover {
     border: 1px solid rgb(207, 207, 207);
-    background-color: rgba(231, 231, 231, 0.829);
+    background-color: rgba(241, 241, 241, 0.829);
     border-radius: 2px;
     
 }
